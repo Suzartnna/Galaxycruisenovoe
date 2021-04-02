@@ -1,0 +1,296 @@
+body {
+    
+}
+
+body::-webkit-scrollbar { width: 0; }
+
+.container {
+    position: relative;
+    width:      100%;
+    padding-top: 182%;
+}
+
+.container-content {
+    position: absolute;
+    top:    0;
+    right:  0;
+    bottom: 0;
+    left:   0;
+    overflow: hidden;
+    background-image: url('../images/back1.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: background-image 0.2s ease-in-out;
+}
+
+.note {
+    position: absolute;
+    left: 38%;
+    width: 25%;
+    top: 2%;
+}
+
+.planet {
+    position: absolute;
+    width: 16%;
+    height: 9%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: background-image 0.2s ease-in-out;
+}
+
+.planet-back {
+    position: absolute;
+    top: -10%;
+    bottom: -10%;
+    left: -10%;
+    right: -10%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 55%;
+}
+
+.planet1 {
+    top: 11%;
+    left: 43%;
+}
+
+.planet1:hover {
+    background-image: url('../images/planet1-light.svg');
+}
+
+.planet1 .planet-back {
+    background-image: url('../images/planet1.svg');
+}
+
+.planet2 {
+    top: 46%;
+    left: 43%;
+}
+
+.planet2:hover {
+    background-image: url('../images/planet2-light.svg');
+}
+
+.planet2 .planet-back {
+    background-image: url('../images/planet2.svg');
+}
+
+.planet3 {
+    top: 79%;
+    left: 43%;
+    
+}
+
+.planet3:hover {
+    background-image: url('../images/planet3-light.svg');
+}
+
+.planet3 .planet-back {
+    background-image: url('../images/planet3.svg');
+}
+
+
+.smaller-planet {
+    position: absolute;
+    width: 25%;
+    height: 10%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.smaller-planet .planet-back {
+    background-size: 27%;
+}
+
+
+.s-planet1 {
+    top: 18%;
+    left: 10%;
+}
+
+.s-planet1:hover {
+    background-image: url('../images/small-planet1-light.svg');
+}
+
+.s-planet1 .planet-back {
+    background-image: url('../images/small-planet1.svg');
+}
+
+.s-planet2 {
+    top: 18%;
+    left: 65%;
+}
+
+.s-planet2:hover {
+    background-image: url('../images/small-planet2-light.svg');
+}
+
+.s-planet2 .planet-back {
+    background-image: url('../images/small-planet2.svg');
+}
+
+.s-planet3 {
+    top: 35%;
+    left: 10%;
+}
+
+.s-planet3:hover {
+    background-image: url('../images/small-planet3-light.svg');
+}
+
+.s-planet3 .planet-back {
+    background-image: url('../images/small-planet3.svg');
+}
+
+.s-planet4 {
+    top: 35%;
+    left: 65%;
+}
+
+.s-planet4:hover {
+    background-image: url('../images/small-planet4-light.svg');
+}
+
+.s-planet4 .planet-back {
+    background-image: url('../images/small-planet4.svg');
+}
+
+.s-planet5 {
+    top: 53%;
+    left: 11%;
+}
+
+.s-planet5:hover {
+    background-image: url('../images/small-planet5-light.svg');
+}
+
+.s-planet5 .planet-back {
+    background-image: url('../images/small-planet5.svg');
+}
+
+.s-planet6 {
+    top: 53%;
+    left: 65%;
+}
+
+.s-planet6:hover {
+    background-image: url('../images/small-planet6-light.svg');
+}
+
+.s-planet6 .planet-back {
+    background-image: url('../images/small-planet6.svg');
+}
+
+.s-planet7 {
+    top: 71%;
+    left: 11%;
+}
+
+.s-planet7:hover {
+    background-image: url('../images/small-planet7-light.svg');
+}
+
+.s-planet7 .planet-back {
+    background-image: url('../images/small-planet7.svg');
+}
+
+.s-planet8 {
+    top: 71%;
+    left: 65%;
+}
+
+.s-planet8:hover {
+    background-image: url('../images/small-planet8-light.svg');
+}
+
+.s-planet8 .planet-back {
+    background-image: url('../images/small-planet8.svg');
+}
+
+.flying {
+    position: absolute;
+    width: 16%;
+    height: 9%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.stuff-1 {
+    background-image: url('../images/stars1.svg');
+    top: 9%;
+    left: 79%;
+    animation: fly-1 2s infinite ease-in-out;
+}
+
+@keyframes fly-1 {
+    0% {top: 12%; left: 79%}
+    50%{top: 9%; left: 79%}
+    100%{top: 12%; left: 79%}
+}
+
+.stuff-2 {
+    background-image: url('../images/stars2.svg');
+    top: 45%;
+    left: 9%;
+    animation: fly-2 2s infinite ease-in-out;
+}
+
+@keyframes fly-2 {
+    0% {top: 47%;}
+    50%{top: 45%;}
+    100%{top: 47%;}
+}
+
+.stuff-3 {
+    background-image: url('../images/stars3.svg');
+    top: 45%;
+    left: 79%;
+    animation: fly-3 3s infinite ease-in-out;
+}
+
+@keyframes fly-3 {
+    0% {top: 43%;}
+    50%{top: 45%;}
+    100%{top: 43%;}
+}
+
+.stuff-4 {
+    background-image: url('../images/stars4.svg');
+    top: 82%;
+    left: 8%;
+    animation: fly-4 2.2s infinite ease-in-out;
+}
+
+@keyframes fly-4 {
+    0% {top: 80%;}
+    50%{top: 82%;}
+    100%{top: 80%;}
+}
+
+.stuff-5 {
+    background-image: url('../images/stars5.svg');
+    top: 82%;
+    left: 79%;
+    animation: fly-5 2.2s infinite ease-in-out;
+}
+
+@keyframes fly-5 {
+    0% {top: 80%;}
+    50%{top: 78%;}
+    100%{top: 80%;}
+}
+
+.footer-notes {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 10%;
+    background-image: url('../images/footer-notes.svg');
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+}

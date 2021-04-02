@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Веб-плакат</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="container-content">
+
+            <div class="flying stuff-1">
+            </div>
+            <div class="flying stuff-2">
+            </div>
+            <div class="flying stuff-3">
+            </div>
+            <div class="flying stuff-4">
+            </div>
+            <div class="flying stuff-5">
+            </div>
+
+            <img src="images/note.svg" class='note' alt="">
+                <div class="planet planet1">
+                    <div class="planet-back"></div>
+                </div>
+                <div class="planet planet2">
+                    <div class="planet-back"></div>
+                </div>
+                <div class="planet planet3">
+                    <div class="planet-back"></div>
+                </div>
+                <div class="smaller-planet s-planet1">
+                    <div class="planet-back"></div>
+                </div>
+                <div class="smaller-planet s-planet2">
+                    <div class="planet-back"></div>
+                </div>
+                <div class="smaller-planet s-planet3">
+                    <div class="planet-back"></div>
+                </div>
+                <div class="smaller-planet s-planet4">
+                    <div class="planet-back"></div>
+                </div>
+                <div class="smaller-planet s-planet5">
+                    <div class="planet-back"></div>
+                </div>
+                <div class="smaller-planet s-planet6">
+                    <div class="planet-back"></div>
+                </div>
+                <div class="smaller-planet s-planet7">
+                    <div class="planet-back"></div>
+                </div>
+                <div class="smaller-planet s-planet8">
+                    <div class="planet-back"></div>
+                </div>
+                <div class="footer-notes">
+                </div>
+        </div>
+    </div>
+<script>
+    $(document).ready(function(){
+
+    $('.planet1').click(function(){
+        $('.container-content').css('backgroundImage', 'url(images/back2.svg)');
+        $('.stuff-1').css('backgroundImage', 'url(images/space1.svg)');
+        $('.stuff-2').css('backgroundImage', 'url(images/space2.svg)');
+        $('.stuff-3').css('backgroundImage', 'url(images/space3.svg)');
+        $('.stuff-4').css('backgroundImage', 'url(images/space4.svg)');
+        $('.stuff-5').css('backgroundImage', 'url(images/space5.svg)');
+    });
+
+    $('.planet2').click(function(){
+        $('.container-content').css('backgroundImage', 'url(images/back3.svg)');
+        $('.stuff-1').css('backgroundImage', 'url(images/mars1.svg)');
+        $('.stuff-2').css('backgroundImage', 'url(images/mars2.svg)');
+        $('.stuff-3').css('backgroundImage', 'url(images/mars3.svg)');
+        $('.stuff-4').css('backgroundImage', 'url(images/mars4.svg)');
+        $('.stuff-5').css('backgroundImage', 'url(images/mars5.svg)');
+    });
+
+    $('.planet3').click(function(){
+        $('.container-content').css('backgroundImage', 'url(images/back4.svg)');
+        $('.stuff-1').css('backgroundImage', 'url(images/violet1.svg)');
+        $('.stuff-2').css('backgroundImage', 'url(images/violet2.svg)');
+        $('.stuff-3').css('backgroundImage', 'url(images/violet3.svg)');
+        $('.stuff-4').css('backgroundImage', 'url(images/violet4.svg)');
+        $('.stuff-5').css('backgroundImage', 'url(images/violet5.svg)');
+    });
+
+    });
+</script>
+    
+</body>
+</html>
